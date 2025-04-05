@@ -1,0 +1,70 @@
+[
+ {
+  "InstFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/top.v",
+    "InstLine" : 18,
+    "InstName" : "clk_1MHz_gen",
+    "ModuleFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/clk_divider.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "clk_divider"
+   },
+   {
+    "InstFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/top.v",
+    "InstLine" : 27,
+    "InstName" : "refresher_inst",
+    "ModuleFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/refresher250ms.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "refresher250ms"
+   },
+   {
+    "InstFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/top.v",
+    "InstLine" : 39,
+    "InstName" : "sensor_inst",
+    "ModuleFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/hc_sr04.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "hc_sr04"
+   },
+   {
+    "InstFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/top.v",
+    "InstLine" : 54,
+    "InstName" : "sensor_to_ascii_inst",
+    "ModuleFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/sensor_data_to_ascii.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "sensor_data_to_ascii"
+   },
+   {
+    "InstFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/top.v",
+    "InstLine" : 120,
+    "InstName" : "lcd_display_inst",
+    "ModuleFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/lcd_display.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "lcd_display"
+   },
+   {
+    "InstFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/top.v",
+    "InstLine" : 132,
+    "InstName" : "lcd_write_cmd_data_inst",
+    "ModuleFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/lcd_write_cmd_data.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "lcd_write_cmd_data",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/lcd_write_cmd_data.v",
+      "InstLine" : 162,
+      "InstName" : "i2c_writframe_inst",
+      "ModuleFile" : "C:/Users/Admin/Documents/fpga_project_test36/src/i2c_writeframe.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "i2c_writeframe"
+     }
+    ]
+   }
+  ]
+ }
+]
